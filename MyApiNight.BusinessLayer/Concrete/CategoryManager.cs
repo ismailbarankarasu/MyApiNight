@@ -9,9 +9,15 @@ using System.Threading.Tasks;
 
 namespace MyApiNight.BusinessLayer.Concrete
 {
-    public class ConcreteManager : ICategoryService
+    public class CategoryManager : ICategoryService
     {
         private readonly ICategoryDal _categoryDal;
+
+        public CategoryManager(ICategoryDal categoryDal)
+        {
+            _categoryDal = categoryDal;
+        }
+
         public void TDelete(int id)
         {
             _categoryDal.Delete(id);
