@@ -15,5 +15,11 @@ namespace MyApiNight.DataAccessLayer.EntityFramework
         public EfProductDal(ApiContext context) : base(context)
         {
         }
+        ApiContext context = new ApiContext();
+        public int GetProductCount()
+        {
+            int value = context.Products.Count();
+            return value;
+        }
     }
 }
