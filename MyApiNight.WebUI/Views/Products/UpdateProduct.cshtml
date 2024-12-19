@@ -1,0 +1,22 @@
+﻿@model MyApiNight.WebUI.Dtos.UpdateProductDto
+@{
+    Layout = null;
+}
+
+<link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+<form method="post">
+    <div class="container mb-3 mt-4">
+        <input type="hidden" asp-for="ProductId" />
+        <label>Ürün Adı</label>
+        <input class="form-control mb-2" asp-for="ProductName" type="text" />
+
+        <label>Ürün Fiyatı</label>
+        <input class="form-control mb-2" asp-for="ProductPrice" type="text" />
+
+        <label>Ürün Stok</label>
+        <input class="form-control mb-2" asp-for="ProductStock" type="text" />
+
+        <button class="btn btn-primary">Ürünü Güncelle</button>
+    </div>
+</form>
