@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MyApiNight.WebUI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+705c20946bef25d21a603f2206f875051acec8da")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0f5d2b1f3db28cfa70dd54e1515defc5c13ba601")]
 [assembly: System.Reflection.AssemblyProductAttribute("MyApiNight.WebUI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MyApiNight.WebUI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
